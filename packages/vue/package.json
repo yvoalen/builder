@@ -1,17 +1,13 @@
 {
-  "name": "vue-lib",
+  "name": "@builder.io/vue",
   "version": "0.0.0",
-  "description": "Some awesome description",
+  "description": "Builder.io SDK for Vue",
   "main": "dist/vue-lib.cjs.js",
   "unpkg": "dist/vue-lib.global.js",
   "jsdelivr": "dist/vue-lib.global.js",
   "module": "dist/vue-lib.esm-bundler.js",
   "types": "dist/vue-lib.d.ts",
   "sideEffects": false,
-  "author": {
-    "name": "Eduardo San Martin Morote",
-    "email": "posva13@gmail.com"
-  },
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "build:dts": "api-extractor run --local --verbose",
